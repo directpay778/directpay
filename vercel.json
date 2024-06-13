@@ -1,8 +1,15 @@
 {
     "routes": [
-      { "src": "/", "dest": "/" },
-      { "src": "/login", "dest": "/src/components/Login.jsx" },
-      { "src": "/dashboard", "dest": "/src/components/Dashboard.jsx" }
+      {
+        "src": "/(.*)",
+        "dest": "/index.html"
+      },
+      { "src": "/login", 
+      "dest": "/src/components/Login.jsx" 
+      },
+      { "src": "/dashboard", 
+      "dest": "/src/components/Dashboard.jsx" 
+      }
 
     ]
   }
