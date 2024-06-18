@@ -1,5 +1,5 @@
 import styles from "../style";
-import { arrowUp } from "../assets";
+// import { arrowUp } from "../assets";
 
 const GetStarted = () => (
   <div className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer`}>
@@ -12,7 +12,7 @@ const GetStarted = () => (
       </div>
       
       <p className="font-poppins font-medium text-[18px] leading-[23.4px]">
-        <span className="text-gradient">9212222172</span>
+        <span className="text-gradient">9952550077</span>
         
       </p>
       

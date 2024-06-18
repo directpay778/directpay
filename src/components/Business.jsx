@@ -1,6 +1,7 @@
 import { features } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
+import ButtonTwo from "./ButtonTwo";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
@@ -26,11 +27,22 @@ const Business = () =>  (
         the money.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        DirectPay is the Product of JSR group. which deals in all types of loan, With the right loan provider, you can improve your financial life by
-        taking loan with easy process. So don't wait just come to us and get your loan in just few days.
+        <strong>Address:</strong> 123 Loan Street, Finance City, JS 45678
+      </p>
+      <p className={`${styles.paragraph} max-w-[470px] mt-2`}>
+        <strong>Timing:</strong> Monday to Saturday: 10 AM - 6 PM
       </p>
 
-      <Button styles={`mt-10`} />
+       
+      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        DirectPay is the Product of JSR group. which deals in all types of loan, With the right loan provider, you can improve your financial life by
+        taking loan with easy process. So do not wait just come to us and get your loan in just few days.
+      </p>
+
+      <ButtonTwo styles={`mt-10`} 
+      
+      
+      />
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>
