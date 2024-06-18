@@ -27,10 +27,13 @@ const Business = () =>  (
         the money.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        <strong>Address:</strong> 123 Loan Street, Finance City, JS 45678
+        <strong>Address:</strong> Office no. 217 2nd floor, jain tower 1, District Center, Janakpuri, New Delhi 110058
       </p>
       <p className={`${styles.paragraph} max-w-[470px] mt-2`}>
-        <strong>Timing:</strong> Monday to Saturday: 10 AM - 6 PM
+        <strong>Timing:</strong> Monday to Saturday: 10 AM - 6 PM (Closed on govt. holiday)
+      </p>
+      <p className={`${styles.paragraph} max-w-[470px] mt-2`}>
+        <strong>Phone:</strong> 011-49054121
       </p>
 
        
