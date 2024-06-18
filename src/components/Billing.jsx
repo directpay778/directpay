@@ -18,7 +18,7 @@ const Billing = () => (
       
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      At DirectPay, we understand that obtaining a loan can often be a complicated and time-consuming process. 
+      At Direct Pay, we understand that obtaining a loan can often be a complicated and time-consuming process. 
       That’s why we’ve provide every type of loan and we have streamlined our application procedure to ensure that you can get the financial assistance
        you need quickly and effortlessly.
       </p>

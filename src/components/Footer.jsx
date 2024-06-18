@@ -3,6 +3,8 @@ import { logo } from "../assets";
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => (
+  
+
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
     {/* <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}> */}
       {/* <div className="flex-[1] flex flex-col justify-start mr-10">
@@ -44,8 +46,11 @@ const Footer = () => (
         Copyright Ⓒ 2024 DirectPay. All Rights Reserved.
       </p>
 
-      {/* <div className="flex flex-row md:mt-0 mt-6">
-        {socialMedia.map((social, index) => (
+      <div className="flex flex-row md:mt-0 mt-6">
+      <a href="mailto:directpay15@gmail.com" className="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded mr-20">
+        Email Us 
+      </a>
+        {/* {socialMedia.map((social, index) => (
           <img
             key={social.id}
             src={social.icon}
@@ -55,8 +60,9 @@ const Footer = () => (
             }`}
             onClick={() => window.open(social.link)}
           />
-        ))}
-      </div> */}
+        ))} */}
+      </div>
+      
     </div>
   </section>
 );

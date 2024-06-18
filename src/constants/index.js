@@ -47,7 +47,7 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Highly satisfied with my loan from DirectPay. Easy application, fast processing, and great rates. Definitely my go-to for future financial needs",
+      "Highly satisfied with my loan from Direct Pay. Easy application, fast processing, and great rates. Definitely my go-to for future financial needs",
     name: "Ravi Kumar",
     title: "Digital Marketer",
     img: person4,
@@ -63,7 +63,7 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      "Taking a loan from DirectPay was a breeze! The process was smooth, the rates were competitive, and the support team was incredibly helpful. Highly recommend their services for anyone in need of financial assistance",
+      "Taking a loan from Direct Pay was a breeze! The process was smooth, the rates were competitive, and the support team was incredibly helpful. Highly recommend their services for anyone in need of financial assistance",
     name: "Gagan Sharma",
     title: "Software Engineer",
     img: person6,

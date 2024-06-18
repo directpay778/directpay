@@ -12,7 +12,7 @@ const GetStarted = () => (
       </div>
       
       <p className="font-poppins font-medium text-[18px] leading-[23.4px]">
-        <span className="text-gradient">9952550077</span>
+        <span className="text-gradient">9953550077</span>
         
       </p>
       
