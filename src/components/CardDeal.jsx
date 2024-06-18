@@ -10,7 +10,7 @@ const CardDeal = () => (
         steps.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      At Direct Pay, we believe that getting a loan should be straightforward and beneficial for you. That’s why we’ve simplified the process to help you find the best loan deals with ease and convenience
+      At <strong style={{color: 'green'}}>Direct Pay</strong>, we believe that getting a loan should be straightforward and beneficial for you. That’s why we’ve simplified the process to help you find the best loan deals with ease and convenience
       </p>
 
    

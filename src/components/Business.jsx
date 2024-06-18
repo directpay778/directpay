@@ -38,7 +38,7 @@ const Business = () =>  (
 
        
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Direct Pay is the Product of JSR group. which deals in all types of loan, With the right loan provider, you can improve your financial life by
+        <strong style={{color: 'green'}}>Direct Pay</strong> is the Product of JSR group. which deals in all types of loan, With the right loan provider, you can improve your financial life by
         taking loan with easy process. So do not wait just come to us and get your loan in just few days.
       </p>
 
